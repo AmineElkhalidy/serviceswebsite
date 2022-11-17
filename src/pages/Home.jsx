@@ -17,17 +17,17 @@ const Home = () => {
 
       <main className="overflow-hidden">
         {/* Hero section */}
-        <section className="px-6" id="hero">
+        <section className="max-w-6xl mx auto px-6" id="hero">
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
             transition={{ duration: 0.5 }}
           >
             <div>
-              <span className="inline-flex items-center gap-2">
-                <MapPinIcon className="h-6 w-6" /> Marrakech, Morocco
-              </span>
-
-              <h1></h1>
+              <h1>
+                Hello,
+                <br />
+                I'm Amine Elkhalidy
+              </h1>
             </div>
           </motion.div>
         </section>
