@@ -2,7 +2,16 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      main: "Rubik, sans-serif",
+      second: "Bai Jamjuree, sans-serif",
+    },
+    extend: {
+      colors: {
+        main: "#00112C",
+        second: "#38E8B0",
+      },
+    },
   },
   plugins: [],
 };
