@@ -21,7 +21,7 @@ const Header = () => {
           href="#"
           className={`${
             open ? "text-main" : "text-gray-100"
-          } inline-flex items-center gap-1 text-lg font-semibold cursor-pointer`}
+          } inline-flex items-center gap-1 text-lg font-bold cursor-pointer`}
         >
           <img className="h-[2rem]" src={Amine} alt="Header logo" />
           <span>Amine Elkhalidy</span>
@@ -29,7 +29,7 @@ const Header = () => {
 
         <a
           href="mailto:a.amineelkhalidy@gmail.com"
-          className="hidden text-gray-100 font-medium items-center gap-2 duration-300 group md:inline-flex"
+          className="hidden text-gray-100 font-semibold items-center gap-2 duration-300 group md:inline-flex"
         >
           a.amineelkhalidy@gmail.com
           <span className="group-hover:icon">
