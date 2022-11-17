@@ -3,8 +3,7 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      main: "Rubik, sans-serif",
-      second: "Bai Jamjuree, sans-serif",
+      sans: "Rubik, sans-serif",
     },
     extend: {
       colors: {
