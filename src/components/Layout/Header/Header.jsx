@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="w-full font-second bg-main">
-      <nav className="h-20 max-w-6xl mx-auto px-6 flex justify-between items-center">
+      <nav className="h-20 max-w-6xl mx-auto px-6 flex justify-between items-center md:px-0">
         <a
           href="#"
           className={`${
