@@ -21,7 +21,7 @@ const Home = () => {
 
       {/* Main */}
       <main>
-        <section className="min-h-[calc(100vh-5rem)] max-w-6xl mx-auto  flex justify-center items-center">
+        <section className="min-h-[calc(100vh-5rem)] max-w-6xl mx-auto sm:flex sm:justify-center sm:items-center">
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
             transition={{ duration: 0.5 }}
