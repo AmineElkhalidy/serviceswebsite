@@ -7,11 +7,20 @@ import { motion } from "framer-motion";
 import Header from "../components/Layout/Header/Header";
 
 // Location icon
-import { MapPinIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
+import {
+  MapPinIcon,
+  ArrowRightIcon,
+  ArrowTopRightOnSquareIcon,
+} from "@heroicons/react/24/outline";
+
+// Linkedin & Whatsapp
+import { RiLinkedinLine } from "react-icons/ri";
+import { BsWhatsapp, BsTelephoneOutbound, BsEnvelope } from "react-icons/bs";
 
 // Images
 import Devmain from "../assets/images/developping-main-color.svg";
 import Devsec from "../assets/images/developping-second-color.svg";
+import Logo from "../assets/images/Amine.png";
 
 const Home = () => {
   return (
@@ -157,6 +166,84 @@ const Home = () => {
                 </div>
               </div>
             </div>
+          </motion.div>
+        </section>
+
+        {/* Contact section */}
+        <section className="h-screen bg-[#04294F]" id="contact">
+          <motion.div
+            whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+            transition={{ duration: 0.5 }}
+            className="h-full flex flex-col justify-center items-center gap-12 sm:flex-row sm:gap-20"
+          >
+            <div>
+              <div className="text-center">
+                <h2 className="text-xl mb-2 font-semibold md:text-2xl lg:text-3xl xl:text-4xl">
+                  Have a project in your mind ?
+                </h2>
+                <p className="text-lg mb-3 lg:text-xl">
+                  Contact me and I will handle the rest.
+                </p>
+
+                <ul className="flex justify-center items-center gap-6 mb-12">
+                  <li>
+                    <a
+                      href="mailto:a.amineelkhalidy@gmail.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className=""
+                    >
+                      <BsEnvelope className="h-5 w-5 md:h-6 md:w-6 xl:w-7 xl:h-7" />
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="tel:+212611154307"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className=""
+                    >
+                      <BsTelephoneOutbound className="h-5 w-5 md:h-6 md:w-6 xl:w-7 xl:h-7" />
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="tel:+212611154307"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className=""
+                    >
+                      <RiLinkedinLine className="h-5 w-5 md:h-6 md:w-6 xl:w-7 xl:h-7" />
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://wa.me/212611154307"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className=""
+                    >
+                      <BsWhatsapp className="h-5 w-5 md:h-6 md:w-6 xl:w-7 xl:h-7" />
+                    </a>
+                  </li>
+                </ul>
+
+                <a
+                  href="https://amineelkhalidy.vercel.app"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="inline-flex items-center gap-2 p-3 rounded-md bg-white text-[#04294F] xl:text-xl"
+                >
+                  Visit my profile{" "}
+                  <ArrowTopRightOnSquareIcon className="w-4 h-4 xl:w-6 xl:h-6" />
+                </a>
+              </div>
+            </div>
+
+            <img src={Logo} alt="Logo" />
           </motion.div>
         </section>
       </main>
