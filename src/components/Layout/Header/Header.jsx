@@ -14,7 +14,6 @@ const Header = () => {
     <header className="w-full bg-main">
       <nav className="h-20 max-w-6xl mx-auto px-6 flex justify-between items-center 2xl:px-O">
         <a
-          href="#"
           className={
             "text-gray-100 inline-flex items-center gap-1 text-lg font-medium cursor-pointer"
           }
