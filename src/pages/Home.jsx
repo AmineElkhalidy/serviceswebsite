@@ -42,7 +42,7 @@ const Home = () => {
                 <span className="inline-block bg-blue text-gray-800">
                   web developer
                 </span>
-                , I build things that lives on{" "}
+                , I build things that live on{" "}
                 <span className="inline-block bg-blue text-gray-800">
                   the internet
                 </span>
@@ -78,7 +78,7 @@ const Home = () => {
                   className="justify-self-center"
                 />
 
-                <div className="text-gray space-y-1">
+                <div className="text-gray space-y-2">
                   <h3 className="text-main text-2xl font-semibold xl:text-3xl">
                     High quality
                   </h3>
@@ -86,7 +86,9 @@ const Home = () => {
                     I will make the best application for you in terms of quality
                   </p>
                   <a
-                    href="#"
+                    href="https://amineelkhalidy.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-blue font-medium"
                   >
                     Visit my portfolio{" "}
@@ -113,7 +115,9 @@ const Home = () => {
                     I will make the best application for you in terms of quality
                   </p>
                   <a
-                    href="#"
+                    href="https://amineelkhalidy.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-blue font-medium"
                   >
                     Visit my portfolio{" "}
@@ -140,7 +144,9 @@ const Home = () => {
                     I will make the best application for you in terms of quality
                   </p>
                   <a
-                    href="#"
+                    href="https://amineelkhalidy.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-blue font-medium"
                   >
                     Visit my portfolio{" "}
