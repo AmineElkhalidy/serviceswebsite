@@ -25,14 +25,14 @@ const Home = () => {
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
             transition={{ duration: 0.5 }}
-            className="grid px-6 space-y-6  sm:grid-cols-2 sm:space-y-0 "
+            className="grid px-6 space-y-10  sm:grid-cols-2 sm:space-y-0 "
           >
-            <div className="space-y-4">
+            <div className="space-y-4 pt-10 sm:pt-0">
               <span className="inline-flex items-center gap-2 font-medium md:text-lg">
                 <MapPinIcon className="h-5 w-5" /> Marrakech, Morocco
               </span>
 
-              <h1 className="text-3xl font-thin md:text-4xl lg:text-5xl">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl">
                 Hello, <br />
                 I'm <span>Amine Elkhalidy</span>
               </h1>
