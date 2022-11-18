@@ -67,7 +67,7 @@ const Home = () => {
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
             transition={{ duration: 0.5 }}
-            className="max-w-6xl mx-auto h-full flex justify-center items-center px-6 md:px-0"
+            className="max-w-6xl mx-auto h-full flex justify-center items-center px-6 py-16 md:px-0 md:py-0"
           >
             <div className="grid gap-12 sm:grid-cols-2 md:grid-cols-3">
               {/* Feature 1 */}
