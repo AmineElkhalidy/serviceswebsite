@@ -24,7 +24,6 @@ import { BsWhatsapp, BsTelephoneOutbound, BsEnvelope } from "react-icons/bs";
 
 // Images
 import Devmain from "../assets/images/developping-main-color.svg";
-import Devsec from "../assets/images/developping-second-color.svg";
 
 // Logo
 import Logo from "../assets/images/Amine.png";
@@ -298,7 +297,7 @@ const Home = () => {
                 href="https://amineelkhalidy.vercel.app"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="inline-flex items-center gap-2 p-3 rounded-md bg-blue text-white group duration-300 hover:bg-white hover:text-[#04294F] xl:text-xl"
+                className="inline-flex items-center gap-2 py-3 px-5 rounded-md bg-blue text-white group duration-300 hover:bg-white hover:text-[#04294F] xl:text-xl"
               >
                 Visit my profile{" "}
                 <ArrowTopRightOnSquareIcon className="w-4 h-4 xl:w-6 xl:h-6" />
