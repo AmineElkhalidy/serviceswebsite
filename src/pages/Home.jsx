@@ -106,11 +106,11 @@ const Home = () => {
                     href="https://amineelkhalidy.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-blue font-medium"
+                    className="inline-flex items-center gap-2 text-blue font-medium group"
                   >
                     Visit my portfolio{" "}
                     <span>
-                      <ArrowRightIcon className="h-4 w-4" />
+                      <ArrowRightIcon className="h-4 w-4 group-hover:translate-x-1" />
                     </span>
                   </a>
                 </div>
@@ -136,11 +136,11 @@ const Home = () => {
                     href="https://amineelkhalidy.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-blue font-medium"
+                    className="inline-flex items-center gap-2 text-blue font-medium group"
                   >
                     Visit my portfolio{" "}
                     <span>
-                      <ArrowRightIcon className="h-4 w-4" />
+                      <ArrowRightIcon className="h-4 w-4 group-hover:translate-x-1" />
                     </span>
                   </a>
                 </div>
@@ -154,22 +154,23 @@ const Home = () => {
                   className="justify-self-center"
                 />
 
-                <div className="text-gray space-y-2">
+                <div className="text-gray space-y-2 duration-300">
                   <h3 className="text-main text-2xl font-semibold xl:text-3xl">
                     SEO
                   </h3>
                   <p className="max-w-xs text-grey xl:text-lg">
-                    I will make sure that your website follows best practices.
+                    I will make sure your website get crawled & indexed by SE
+                    bots.
                   </p>
                   <a
                     href="https://amineelkhalidy.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-blue font-medium"
+                    className="inline-flex items-center gap-2 text-blue font-medium group"
                   >
                     Visit my portfolio{" "}
                     <span>
-                      <ArrowRightIcon className="h-4 w-4" />
+                      <ArrowRightIcon className="h-4 w-4 group-hover:translate-x-1" />
                     </span>
                   </a>
                 </div>
