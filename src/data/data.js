@@ -3,6 +3,7 @@ import Omnifood from "../assets/images/projects/omnifood.png";
 import Tasty from "../assets/images/projects/tasty.png";
 import Clipboard from "../assets/images/projects/clipboarding.png";
 import Store from "../assets/images/projects/shoppingstore.png";
+import Portfolio from "../assets/images/projects/portfolio.png";
 
 export const images = [
   {
@@ -29,5 +30,10 @@ export const images = [
     id: 5,
     image: Store,
     link: "https://shoppingstore.vercel.app",
+  },
+  {
+    id: 6,
+    image: Portfolio,
+    link: "https://amineelkhalidy.vercel.app",
   },
 ];
