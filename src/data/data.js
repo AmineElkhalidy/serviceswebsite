@@ -4,6 +4,9 @@ import Tasty from "../assets/images/projects/tasty.png";
 import Clipboard from "../assets/images/projects/clipboarding.png";
 import Store from "../assets/images/projects/shoppingstore.png";
 import Portfolio from "../assets/images/projects/portfolio.png";
+import Rotinniajad from "../assets/images/projects/rotinniajad.png";
+import Shoesit from "../assets/images/projects/shoesit.png";
+import Rachidchatoui from "../assets/images/projects/elqssab.png";
 
 export const images = [
   {
@@ -35,5 +38,20 @@ export const images = [
     id: 6,
     image: Portfolio,
     link: "https://amineelkhalidy.vercel.app",
+  },
+  {
+    id: 7,
+    image: Rotinniajad,
+    link: "https://www.rotinniajad.com",
+  },
+  {
+    id: 8,
+    image: Shoesit,
+    link: "https://shoesit.vercel.app",
+  },
+  {
+    id: 9,
+    image: Rachidchatoui,
+    link: "https://rachidchatoui.vercel.app",
   },
 ];
