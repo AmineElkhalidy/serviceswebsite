@@ -3,6 +3,10 @@ import React from "react";
 // motion
 import { motion } from "framer-motion";
 
+// Slider
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
+
 // Header
 import Header from "../components/Layout/Header/Header";
 
@@ -23,6 +27,9 @@ import Devsec from "../assets/images/developping-second-color.svg";
 
 // Logo
 import Logo from "../assets/images/Amine.png";
+
+// Images
+import { images } from "../data/data";
 
 const Home = () => {
   return (
@@ -50,11 +57,11 @@ const Home = () => {
 
               <p className="max-w-md text-lg text-gray-200 md:text-xl lg:text-2xl">
                 I am a{" "}
-                <span className="inline-block bg-blue text-gray-800">
+                <span className="inline-block bg-blue text-grey">
                   web developer
                 </span>
                 , I build things that live on{" "}
-                <span className="inline-block bg-blue text-gray-800">
+                <span className="inline-block bg-blue text-grey">
                   the internet
                 </span>
               </p>
@@ -91,7 +98,7 @@ const Home = () => {
                   <h3 className="text-main text-2xl font-semibold xl:text-3xl">
                     High quality
                   </h3>
-                  <p className="max-w-xs xl:text-lg">
+                  <p className="max-w-xs text-grey xl:text-lg">
                     I will make the best application for you in terms of
                     quality.
                   </p>
@@ -121,7 +128,7 @@ const Home = () => {
                   <h3 className="text-main text-2xl font-semibold xl:text-3xl">
                     Web Hosting
                   </h3>
-                  <p className="max-w-xs xl:text-lg">
+                  <p className="max-w-xs text-grey xl:text-lg">
                     I will make sure your website get hosted by the best hosting
                     providers.
                   </p>
@@ -151,7 +158,7 @@ const Home = () => {
                   <h3 className="text-main text-2xl font-semibold xl:text-3xl">
                     SEO
                   </h3>
-                  <p className="max-w-xs xl:text-lg">
+                  <p className="max-w-xs text-grey xl:text-lg">
                     I will make sure that your website follows best practices.
                   </p>
                   <a
@@ -169,6 +176,22 @@ const Home = () => {
               </div>
             </div>
           </motion.div>
+        </section>
+
+        <section className="h-screen bg-gray-200" id="projects">
+          <div>
+            <Splide>
+              {images.map((image) => (
+                <SplideSlide key={image.id}>
+                  <div>
+                    <img src={image.image} alt="Project preview image" />
+
+                    <a>Live Preview</a>
+                  </div>
+                </SplideSlide>
+              ))}
+            </Splide>
+          </div>
         </section>
 
         {/* Contact section */}
