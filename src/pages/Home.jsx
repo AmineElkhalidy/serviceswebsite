@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 // Slider
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
+import "@splidejs/splide/dist/css/splide.min.css";
 
 // Header
 import Header from "../components/Layout/Header/Header";
@@ -179,14 +180,52 @@ const Home = () => {
         </section>
 
         <section className="h-screen bg-gray-200" id="projects">
-          <div>
-            <Splide>
+          <div className="h-full flex justify-center items-center">
+            <Splide
+              options={{
+                type: "loop",
+                drag: "free",
+                gap: "1rem",
+                arrows: false,
+                pagination: false,
+                perPage: 1,
+                autoScroll: {
+                  pauseOnHover: true,
+                  pauseOnFocus: false,
+                  rewind: false,
+                  speed: 1.5,
+                },
+              }}
+              extensions={{ AutoScroll }}
+            >
               {images.map((image) => (
-                <SplideSlide key={image.id}>
-                  <div>
-                    <img src={image.image} alt="Project preview image" />
+                <SplideSlide
+                  className="max-w-md flex justify-center items-center border border-main md:max-w-lg lg:max-w-4xl"
+                  key={image.id}
+                >
+                  <div className="relative group">
+                    <div className="text-center">
+                      <img
+                        className=""
+                        src={image.image}
+                        alt="Project preview image"
+                      />
 
-                    <a>Live Preview</a>
+                      <div className="hidden group-hover:block cursor-pointer">
+                        <div className="absolute top-0 left-0 h-full w-full bg-black bg-opacity-40">
+                          <div className="h-full flex justify-center items-center">
+                            <a
+                              className="px-8 py-4 bg-main inline-flex items-center font-medium duration-300 border border-white hover:bg-blue"
+                              href={""}
+                              target="_blank"
+                              rel="noreferrer nooponer"
+                            >
+                              Live Preview
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </SplideSlide>
               ))}
