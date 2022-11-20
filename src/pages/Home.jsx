@@ -216,7 +216,7 @@ const Home = () => {
                           <div className="h-full flex justify-center items-center">
                             <a
                               className="px-8 py-4 bg-main inline-flex items-center font-medium duration-300 border border-white hover:bg-blue"
-                              href={""}
+                              href={image.link}
                               target="_blank"
                               rel="noreferrer nooponer"
                             >

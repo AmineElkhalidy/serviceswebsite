@@ -8,7 +8,7 @@ export const images = [
   {
     id: 1,
     image: Mamiro,
-    link: "https://mamiro.vercel.app",
+    link: "https://mamirou.vercel.app/",
   },
   {
     id: 2,
