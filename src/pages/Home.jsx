@@ -78,7 +78,7 @@ const Home = () => {
             transition={{ duration: 0.5 }}
             className="max-w-6xl mx-auto h-full flex justify-center items-center px-6 py-16 md:px-0 md:py-0"
           >
-            <div className="grid gap-12 sm:grid-cols-2 md:grid-cols-3">
+            <div className="grid gap-14 sm:grid-cols-2 md:grid-cols-3">
               {/* Feature 1 */}
               <div className="text-center grid gap-4">
                 <img
@@ -117,7 +117,7 @@ const Home = () => {
                   className="justify-self-center"
                 />
 
-                <div className="text-gray space-y-1">
+                <div className="text-gray space-y-2">
                   <h3 className="text-main text-2xl font-semibold xl:text-3xl">
                     Web Hosting
                   </h3>
@@ -147,7 +147,7 @@ const Home = () => {
                   className="justify-self-center"
                 />
 
-                <div className="text-gray space-y-1">
+                <div className="text-gray space-y-2">
                   <h3 className="text-main text-2xl font-semibold xl:text-3xl">
                     SEO
                   </h3>
