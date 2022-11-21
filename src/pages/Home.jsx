@@ -179,6 +179,7 @@ const Home = () => {
           </motion.div>
         </section>
 
+        {/* Projects */}
         <section className="h-screen bg-gray-200" id="projects">
           <div className="h-full flex justify-center items-center">
             <Splide
